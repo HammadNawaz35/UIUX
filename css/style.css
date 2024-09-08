@@ -385,14 +385,18 @@ Services
 	}
 }
 
+
+
 /* ----------------------------------
  ABOUT Section 
  ------------------------------------ */
+
+
 .about {
 	background-image: url('../img/img.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 100vh;
+	height: 90vh;
 	margin-top: -80px;
 	position: relative;
 	padding: 20px;
@@ -540,7 +544,8 @@ Services
 	width: 90%;
 	/* Full width of container */
 	height: auto;
-	margin-top: 70px !important;
+	border-radius: 8px;
+	margin-top: 35px;
 	/* Space above the image */
 }
 
@@ -576,10 +581,13 @@ Services
 	}
 
 	.about-image img {
-		
+		width: 100%;
 
 	}
 }
+
+
+
 
 
 
