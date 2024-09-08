@@ -781,7 +781,7 @@ Footer
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 576px) {
 	.navbar {
-		margin: 30px 0px 0px 0px !important
+		margin: 0px 0px 0px 0px !important
 			/* Adjust margin for very small screens */
 	}
 
@@ -794,9 +794,9 @@ Footer
 
 	.about-image img {
 	animation: upDown 5s linear infinite;
-	width: 90%;
+	width: 100%;
 	/* Full width of container */
-	height: 70%;
+	
 	border-radius: 8px;
 	margin-top: 10px;
 	
