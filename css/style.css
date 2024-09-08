@@ -792,6 +792,17 @@ Footer
 
 }
 
+	.about-image img {
+	animation: upDown 5s linear infinite;
+	width: 90%;
+	/* Full width of container */
+	height: 70%;
+	border-radius: 8px;
+	margin-top: 10px;
+	
+}
+
+
 
 .text-me {
     margin-top: 70px !important;
