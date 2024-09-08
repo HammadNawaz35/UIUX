@@ -11,7 +11,6 @@ body {
 }
 
 
-
 * {
 	box-sizing: border-box;
 }
@@ -541,7 +540,7 @@ Services
 	width: 90%;
 	/* Full width of container */
 	height: auto;
-	margin-top: 50px !important;
+	margin-top: 70px !important;
 	/* Space above the image */
 }
 
@@ -577,7 +576,7 @@ Services
 	}
 
 	.about-image img {
-		width: 100%;
+		
 
 	}
 }
@@ -774,9 +773,17 @@ Footer
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 576px) {
 	.navbar {
-		margin: 0px 0px 0px 0px!important
+		margin: 30px 0px 0px 0px!important
 			/* Adjust margin for very small screens */
 	}
+
+.about {
+	
+	height: 70vh;
+	
+
+}
+
 
 .text-me {
     margin-top: 70px !important;
