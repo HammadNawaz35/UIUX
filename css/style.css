@@ -396,7 +396,7 @@ Services
 	background-image: url('../img/img.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 90vh;
+	height: 92vh;
 	margin-top: -80px;
 	position: relative;
 	padding: 20px;
@@ -491,7 +491,7 @@ Services
 	font-size: 14px;
 	text-align: center;
 	white-space: nowrap;
-	margin-top: 20px;
+	margin-top: 15px;
 	/* Space above the button */
 }
 
