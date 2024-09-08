@@ -2,7 +2,7 @@
 
 html,
 body {
-    background: linear-gradient(45deg, #aeeeee, #7db9e8, #b0e2ff, #e0ffff);
+	background: linear-gradient(45deg, #aeeeee, #7db9e8, #b0e2ff, #e0ffff);
 	overflow-x: hidden;
 	scroll-behavior: smooth;
 	margin: 0;
@@ -11,47 +11,50 @@ body {
 }
 
 
+
 * {
 	box-sizing: border-box;
 }
 
+/*--------------------------------------------------------------
+# Foem Sumbit Spinner
+--------------------------------------------------------------*/
 
 .loading-spinner {
-	display: none;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%) !important;
-	z-index: 1000;
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
 }
 
 /* Loader Color Change Animation */
 .spinner-border.color-changing {
-	animation: color-change 3s linear infinite;
+  animation: color-change 10s linear infinite;
 }
 
 @keyframes color-change {
-	0% {
-		border-color: #007bff;
-	}
+  0% {
+    border-color: #007bff;
+  }
 
-	25% {
-		border-color: #28a745;
-	}
+  25% {
+    border-color: #28a745;
+  }
 
-	50% {
-		border-color: #ffc107;
-	}
+  50% {
+    border-color: #ffc107;
+  }
 
-	75% {
-		border-color: #dc3545;
-	}
+  75% {
+    border-color: #dc3545;
+  }
 
-	100% {
-		border-color: #007bff;
-	}
+  100% {
+    border-color: #007bff;
+  }
 }
-
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -385,9 +388,6 @@ Services
 	}
 }
 
-
-
-
 /* ----------------------------------
  ABOUT Section 
  ------------------------------------ */
@@ -596,25 +596,13 @@ navbar
 
 #navbar {
 	padding: 0;
-	position: fixed;
+	position: sticky;
 	top: 0;
 	height: 50px;
 	background-color: whitesmoke;
 	border-radius: 100px;
 	margin: 30px 200px 0px 200px;
 	transition: background-color 0.3s ease;
-
-
-
-.nav-sticky {
-	background: linear-gradient(240deg, #662d8c, #ed1e79) !important;
-
-	border-radius: 0px !important;
-	width: 100% !important;
-	height: 70px !important;
-	margin: 0px !important;
-	box-shadow: 0px 3px 10px 0px rgb(63 58 100 / 8%);
-	padding: 0;
 }
 
 .navbar-brand img {
@@ -654,7 +642,16 @@ navbar
 }
 
 
+.nav-sticky {
+	background: linear-gradient(45deg, #662d8c, #ed1e79) !important;
 
+	border-radius: 0px !important;
+	width: 100% !important;
+	height: 70px !important;
+	margin-left: 0px !important;
+	box-shadow: 0px 3px 10px 0px rgb(63 58 100 / 8%);
+	padding: 0;
+}
 
 
 /* Responsive adjustment */
@@ -681,16 +678,6 @@ navbar
 		border-bottom-left-radius: 4px;
 	}
 }
-
-
-/* -----------------------------
-navbar 
---------------------------------- */
-
-
-
-
-
 
 /* -------------------------------------
 Footer
@@ -789,33 +776,10 @@ Footer
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 576px) {
-	#navbar {
-	
+	.navbar {
+		margin: 20px 20px 0px 0px !important
 			/* Adjust margin for very small screens */
 	}
-
-.about {
-	
-	
-	
-
-}
-
-	.about-image img {
-	animation: upDown 5s linear infinite;
-	width: 100%;
-	/* Full width of container */
-	
-	border-radius: 8px;
-	margin-top: 10px;
-	
-}
-
-
-
-.text-me {
-    margin-top: 70px !important;
-}
 
 }
 
@@ -858,11 +822,7 @@ Footer
 
 footer {
 	margin-top: 10px;
-	font-size: 1.2em;@media (max-width: 576px) {
-    .navbar {
-        /* margin: 20px 20px 0px 0px !important; */
-    }
-}
+	font-size: 1.2em;
 }
 
 
