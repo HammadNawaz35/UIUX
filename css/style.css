@@ -388,297 +388,166 @@ Services
 	}
 }
 
-/* ----------------------------------
- ABOUT Section 
- ------------------------------------ */
-.about {
-	background-image: url('../img/img.jpg');
-	background-size: cover;
-	background-position: center;
-	height: 90vh;
-	margin-top: -80px;
-	position: relative;
-	padding: 20px;
 
+
+
+/* Navbar Styles */
+#navbar {
+  padding: 0;
+  position: fixed;
+  height: 50px;
+  background-color: whitesmoke;
+border-radius: 100px;
+margin: 30px 200px 0px 200px;
+  margin: 10px auto;
+  transition: all 0.3s ease;
+  width: calc(100% - 40px); /* Responsive width with margin */
+  max-width: 1200px; /* Limits width for larger screens */
+  z-index: 1000;
+transition: background-color 0.3s ease;
 }
 
+/* Sticky Navbar Styles */
+.nav-sticky {
+  background: linear-gradient(45deg, #662d8c, #ed1e79) !important;
+  border-radius: 0px !important;
+  width: 100% !important;
+  height: 70px !important;
+  margin: 0 !important;
+  box-shadow: 0px 3px 10px 0px rgb(63 58 100 / 8%);
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1032;
+}
+
+/* Hero Section Styles */
+.about {
+  background-image: url('../img/img.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 90vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 0;
+}
 
 .about-text {
-	margin-top: 160px;
-	color: #ffffff;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  flex: 1;
 }
-
-.Skills {
-	font-family: 'Arial', sans-serif;
-	font-size: 24px;
-	font-style: italic !important;
-	margin-top: 30px;
-}
-
 
 .text-me {
-	margin-top: 30px;
+  margin: 30px 0;
 }
-
-
 
 .name {
-
-	background-image: url('https://i0.wp.com/theinscribermag.com/wp-content/uploads/2024/06/pexels-mccutcheon-1191710.jpg');
-	background-size: cover;
-	background-position: center;
-	color: transparent;
-	background-clip: text;
-	-webkit-background-clip: text;
-	font-family: 'Arial', sans-serif;
-	font-size: 36px;
-	font-weight: bold;
-	margin-bottom: 10px 0px;
-	animation: gradientAnimation 10s ease infinite;
-
-}
-
-
-@keyframes gradientAnimation {
-
-	0% {
-		background-position: 0% 0%;
-	}
-
-
-	100% {
-		background-position: 200px 400px;
-	}
-
-}
-
-
-.title {
-	font-family: 'Arial', sans-serif;
-	font-size: 22px;
-	font-weight: bold;
-	color: #ffffff;
-	margin-bottom: 20px;
-	/* Space below the title */
+  background-image: url('https://i0.wp.com/theinscribermag.com/wp-content/uploads/2024/06/pexels-mccutcheon-1191710.jpg');
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: 'Arial', sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0;
+  animation: gradientAnimation 10s ease infinite;
 }
 
 .about-paragraph {
-	max-width: 500px;
-	margin: 40px auto;
-	/* Center-align and space above and below the paragraph */
-	text-align: justify;
-	color: #ffffff;
-	font-family: 'Verdana', sans-serif;
-	font-size: 16px;
-	/* Adjust font size */
+  max-width: 500px;
+  margin: 20px auto;
+  text-align: justify;
+  color: #ffffff;
+  font-family: 'Verdana', sans-serif;
+  font-size: 16px;
 }
 
 .btn1 {
-	position: relative;
-	transition: all 0.3s ease-in-out;
-	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
-	padding: 10px 20px;
-	background: linear-gradient(135deg, #00c8ff, #7b4cf0);
-	border-radius: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: #ffffff;
-	font-weight: bold;
-	border: none;
-	overflow: hidden;
-	font-size: 14px;
-	text-align: center;
-	white-space: nowrap;
-	margin-top: 20px;
-	/* Space above the button */
+  transition: all 0.3s ease-in-out;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #00c8ff, #7b4cf0);
+  border-radius: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  overflow: hidden;
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap;
+  margin-top: 20px;
+  cursor: pointer;
 }
 
 .btn1:hover {
-	background: linear-gradient(135deg, #00a0e9, #6a3fca);
-	transform: scale(1.05);
+  background: linear-gradient(135deg, #00a0e9, #6a3fca);
+  transform: scale(1.05);
 }
-
-.icon {
-	width: 20px;
-	height: 20px;
-	margin-left: 8px;
-	transition: all 0.3s ease-in-out;
-	color: #ffffff;
-}
-
-.btn1:hover .icon {
-	transform: translate(4px);
-}
-
-.btn1::before {
-	content: "";
-	position: absolute;
-	width: 100px;
-	height: 100%;
-	background-image: linear-gradient(120deg, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70%);
-	top: 0;
-	left: -100px;
-	opacity: 0.6;
-	animation: shine 1.5s ease-out infinite;
-}
-
-@keyframes shine {
-	0% {
-		left: -100px;
-	}
-
-	60% {
-		left: 100%;
-	}
-
-	to {
-		left: 100%;
-	}
-}
-
 
 .about-image img {
-	animation: upDown 5s linear infinite;
-	width: 90%;
-	/* Full width of container */
-	height: auto;
-	border-radius: 8px;
-	margin-top: 35px;
-	/* Space above the image */
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+  animation: upDown 5s linear infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 200px 400px;
+  }
 }
 
 @keyframes upDown {
-
-	0%,
-	100% {
-		transform: translateY(0);
-	}
-
-	50% {
-		transform: translateY(-10px);
-	}
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
-	.btn1 {
-		padding: 8px 16px;
-		font-size: 12px;
-		margin-top: 15px;
+  #navbar {
+    width: calc(100% - 20px); /* Reduces the width on smaller screens */
+    margin: 5px auto;
+  }
 
-	}
+  .about {
+    flex-direction: column;
+    padding: 20px;
+  }
 
-	.about-text {
-		margin-top: 60px;
+  .about-text {
+    margin-top: 20px;
+  }
 
-	}
+  .btn1 {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
 
-	.about-paragraph {
-		font-size: 14px;
+  .about-paragraph {
+    font-size: 14px;
+  }
 
-	}
-
-	.about-image img {
-		width: 100%;
-
-	}
+  .about-image img {
+    max-width: 100%;
+  }
 }
 
 
 
-/* -----------------------------
-navbar 
---------------------------------- */
-
-
-
-
-#navbar {
-	padding: 0;
-	position: fixed;
-	top: 0;
-	height: 50px;
-	background-color: whitesmoke;
-	border-radius: 100px;
-	margin: 30px 200px 0px 200px;
-	transition: background-color 0.3s ease;
-}
-
-.navbar-brand img {
-	width: 40px;
-	height: 40px;
-}
-
-.navbar-toggler {
-	margin-left: auto;
-}
-
-.navbar-nav {
-	padding: 20px 0;
-}
-
-.navbar-brand {
-	margin-left: 20px;
-
-}
-
-.navbar-nav .nav-item {
-	margin: 0 10px;
-	/* Add space between nav items */
-}
-
-.navbar-nav .nav-link {
-	font-size: 16px;
-	font-weight: 600;
-	transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-link:hover {
-	color: #fff;
-	background: linear-gradient(45deg, #ed1e781b, #662d8c0f);
-	border-radius: 10px;
-	padding: 5px;
-}
-
-
-.nav-sticky {
-	background: linear-gradient(45deg, #662d8c, #ed1e79) !important;
-
-	border-radius: 0px !important;
-	width: 100% !important;
-	height: 70px !important;
-	margin: 0px !important;
-	box-shadow: 0px 3px 10px 0px rgb(63 58 100 / 8%);
-	padding: 0;
-	top:0;
-}
-
-
-/* Responsive adjustment */
-@media (max-width: 990px) {
-
-
-	.navbar-collapse ul li {
-		border-bottom: 1px solid #ddd;
-		display: block;
-		width: 100%;
-		padding: 10px 0;
-		background-color: #FFF;
-		text-align: center;
-	}
-
-	.navbar-collapse ul li:first-child {
-		border-top-right-radius: 4px;
-		border-top-left-radius: 4px;
-	}
-
-	.navbar-collapse ul li:last-child {
-		border-bottom: none;
-		border-bottom-right-radius: 4px;
-		border-bottom-left-radius: 4px;
-	}
-}
 
 /* -------------------------------------
 Footer
