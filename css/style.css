@@ -396,7 +396,7 @@ Services
 	background-image: url('../img/img.jpg');
 	background-size: cover;
 	background-position: center;
-	height: 90vh;
+	height: 95vh;
 	margin-top: -80px;
 	position: relative;
 	padding: 20px;
@@ -787,7 +787,7 @@ Footer
 
 .about {
 	
-	height: 100vh !important;
+	
 	
 
 }
