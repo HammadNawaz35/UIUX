@@ -790,7 +790,7 @@ Footer
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 576px) {
 	#navbar {
-		margin: 30px 0px 0px 0px !important
+		margin: 15px 0px!important
 			/* Adjust margin for very small screens */
 	}
 
