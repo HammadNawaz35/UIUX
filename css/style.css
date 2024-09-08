@@ -596,7 +596,7 @@ navbar
 
 #navbar {
 	padding: 0;
-	position: sticky;
+	position: fixed;
 	top: 0;
 	height: 50px;
 	background-color: whitesmoke;
@@ -777,7 +777,7 @@ Footer
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 576px) {
 	.navbar {
-		margin: 20px 20px 0px 0px !important
+		margin: 20px 0px 0px 0px !important
 			/* Adjust margin for very small screens */
 	}
 
