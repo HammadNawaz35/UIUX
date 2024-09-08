@@ -781,13 +781,13 @@ Footer
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 576px) {
 	.navbar {
-		margin: 30px 0px 0px 0px!important
+		margin: 30px 0px 0px 0px !important
 			/* Adjust margin for very small screens */
 	}
 
 .about {
 	
-	height: 100vh;
+	height: 100vh !important;
 	
 
 }
