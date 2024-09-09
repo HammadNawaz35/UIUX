@@ -735,6 +735,8 @@ Services
 
 .btn1 {
 	position: relative;
+	display: inline-flex;
+	text-decoration: none;
 	transition: all 0.3s ease-in-out;
 	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 	padding: 10px 20px;
