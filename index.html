@@ -80,7 +80,7 @@
               designs and seamless applications.
             </p>
 
-            <a href="https://github.com/HammadNawaz35/UIUX/blob/main/C.V%20Hammad%20Nawaz%20UIUX.pdf" download>
+           
             <button class="btn1"  data-aos="zoom-in" data-aos-delay="700">
               Download CV
               <svg class="icon" viewBox="0 0 24 24">
@@ -89,7 +89,7 @@
                   fill="currentColor" fill-rule="evenodd"></path>
               </svg>
             </button>
-            </a>
+         
           </div>
         </div>
         <!-- About Image Section -->
@@ -758,19 +758,19 @@
     </script>
 
 
-    <!-- Cv download -->
-    <script>
-      document.getElementById('downloadBtn').addEventListener('click', function () {
-        // Replace with the path to your CV file
-        const fileUrl = 'cv.pdf';
-        const a = document.createElement('a');
-        a.href = fileUrl;
-     a.download = 'C.V Hammad Nawaz UIUX.pdf';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-      });
-    </script>
+ <script>
+  document.getElementById('downloadBtn').addEventListener('click', function () {
+    // Replace with the path to your CV file on GitHub
+    const fileUrl = 'https://github.com/HammadNawaz35/UIUX/raw/main/C.V%20Hammad%20Nawaz%20UIUX.pdf';
+    const a = document.createElement('a');
+    a.href = fileUrl;
+    a.download = 'C.V Hammad Nawaz UIUX.pdf'; // Specify the filename for the download
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  });
+</script>
+
 
     <!-- Text Change Animation -->
     <script>
