@@ -876,7 +876,7 @@ navbar
 #navbar {
 	padding: 0;
 	position: fixed;
-	margin: 30px 200px 200px 0px !important;
+	
 	z-index: 1000;
 	height: 50px;
 	background-color: whitesmoke;
