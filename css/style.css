@@ -891,7 +891,6 @@ Services
 	transition: background-color 0.3s ease;
 	box-shadow: 0px 3px 10px 0px rgba(63, 58, 100, 0.08);
 	/* Transparent box shadow */
-
 	border-radius: 0px !important;
 	width: 100% !important;
 	height: 70px !important;
@@ -968,7 +967,7 @@ Services
 /* Styles for tablet devices */
 @media (min-width: 768px) and (max-width: 1024px) {
     #navbar {
-        margin: 30px 100px 0px 100px !important ; /* Adjusted margins for tablet */
+        margin: 30px 100px 0px 100px ; /* Adjusted margins for tablet */
     }
 }
 
